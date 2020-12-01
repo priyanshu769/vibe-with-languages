@@ -20,7 +20,7 @@ function translate(){
     .then(function responeHandler(response) {return response.json()})
     .then(function logJSON(json) {console.log(json)
         bananaText = json.contents.translated;
-        translatedTxt.innerHTML += `<p>${bananaText}</p>`;
+        translatedTxt.innerHTML += `<p class="output">${bananaText}</p>`;
     }
     )
 }

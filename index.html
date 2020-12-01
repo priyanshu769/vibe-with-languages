@@ -3,19 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Banana Language for Minions</title>
 </head>
 <body>
     <!-- header and nav -->
-    <h2>Banana Language Translator</h2>
+    <h1 class="heading header">Banana Language Translator</h1>
+    <br>
     <!-- content -->
-    <input type="text" placeholder="Enter your text here!" class="user-text">
-    <hr>
-    <button class="translate-btn">Translate</button>
-    <h2>Translated Text</h2>
-    <div class="translated-text"></div>
+    <div class="container">
+        <div class="input-section">
+            <input type="text" placeholder="Enter your text here to translate!" class="user-text">
+        </div>
+        <button class="translate-btn">Translate</button>
+        <hr>
+        <h3 class="heading">Translated text will show in this box.</h3>
+        <div class="translated-text"></div>
+        <br>
+    </div>
 
     <!-- footer -->
+    <footer>
+        <p>Made by Priyanshu, using <a href="https://funtranslations.com/minion">Banana Translator API</a>.</p>
+    </footer>
 
 
     <!-- JS -->
