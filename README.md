@@ -6,7 +6,7 @@ I'm sure that if you love Minion's movies like "Minion" and "Despicable Me (Part
 
 This app is made with Minion Translator API.
 
-**Play with this app:** *Link coming soon*
+[**Play with the App**](https://translatetobanana.netlify.app/)
 
 ## Improvements I want to do in the style (if you can help)
 1. Make it's input area little appealing and put the place holder in the top left.
