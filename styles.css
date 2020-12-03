@@ -1,15 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 .heading {
-    background-color: #f1c40f;
+    background-color: black;
     padding: 2rem;
     text-align: center;
     max-width: 900px;
     margin: auto;
+    color: #ffffff;
 }
 
 .header {
@@ -24,24 +26,32 @@
 }
 
 .user-text {
-    text-align: center;
-    width: 700px;
+    width: 100%;
     min-height: 200px;
     max-height: fit-content;
-    border: solid 1px;
-    text-rendering: auto;
-    /* margin-top: 10px; */
+    border: solid 2px;
+    font-size: 23px;
 }
 
-.translate-btn {
-    padding: 0.5rem 1rem;
-    background-color: #f1c40f;
-    margin: 1rem;
+.container-btn {
+    text-align: center;
+    max-width: 400px;
+    padding: 0rem 2rem 0rem 2rem;
+    margin: auto;
+}
+
+.btn {
+    padding: 0.7rem 1.5rem;
+    background-color: black;
+    margin: 0.5rem;
     text-align: center;
     border: none;
     font-weight: bold;
     border-radius: 3px;
+    color: #EE5A24;
+    cursor: pointer;
 }
+
 
 .container .heading {
     padding: 1rem;
@@ -50,19 +60,35 @@
 }
 
 .translated-text {
-    border: 2px solid #f1c40f;
+    border: 2px solid black;
     min-height: 200px;
     max-height: fit-content;
 }
 
 .output {
-    padding: 2rem;
-    margin: auto;
-    font-size: medium;
+    margin-top: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.invalid {
+    color: red;
+}
+
+.play-banana {
+    font-weight: 23px;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.play-banana a {
+    text-decoration: none;
+    color: #EE5A24;
 }
 
 footer {
-    background-color: #f1c40f;
+    background-color: black;
+    color: #ffffff;
     padding: 2rem;
     font-size: large;
     text-align: center;
@@ -70,4 +96,9 @@ footer {
     margin: auto;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #EE5A24;
 }
